@@ -55,6 +55,27 @@ document.querySelectorAll('[data-scroll-to]').forEach(anchor => {
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
+function animateShapes() {
+  const shape1 = document.getElementById('shape1');
+  const shape2 = document.getElementById('shape2');
+
+  let angle1 = 0;
+  let angle2 = 0;
+
+  function rotateShapes() {
+      angle1 += 0.5;
+      angle2 -= 0.3;
+
+      shape1.style.transform = `rotate(${angle1}deg)`;
+      shape2.style.transform = `rotate(${angle2}deg)`;
+
+      requestAnimationFrame(rotateShapes);
+  }
+
+  rotateShapes();
+}
+
+window.addEventListener('load', animateShapes);
 
 //++++++++++++++++++++++++++    cursor Animation on body   ++++++++++++++++++++++++++++++++
 
@@ -388,7 +409,7 @@ function hero_anime() {
   });
 
   tl3.to("main", {
-    backgroundColor: "#0F0D0D",
+    backgroundColor: "#050a30",
   });
 
   // var tl4 = gsap.timeline({

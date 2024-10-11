@@ -1,7 +1,9 @@
 @font-face {
     font-family: pm;
-    src: url(./Resources/Fonts/ppmori.ttf);
+    /* src: url(./Resources/Fonts/ppmori.ttf); */
+    src: url(./Resources/Fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
+
 
 * {
     margin: 0;
@@ -9,6 +11,7 @@
     box-sizing: border-box;
     /* color: #fff; */
     font-family: pm;
+    
 }
 
 html,
@@ -66,7 +69,8 @@ body {
 /*---------------------------------------*/
 
 main {
-    background-color: #0f0d0d;
+    /* background-color: #0f0d0d; */
+    background-color: #050a30;
     overflow: hidden;
 }
 
@@ -77,6 +81,28 @@ main {
     z-index: 9;
     /* overflow: hidden; */
     /* background-color: aqua; */
+}
+.shape {
+    position: absolute;
+    opacity: 0.5;
+}
+#shape1 {
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+}
+#shape2 {
+    bottom: 200px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+}
+#circle {
+    top: 100px;
+    left: 100px;
+    width: 30px;
+    height: 30px;
 }
 
 nav {
@@ -147,7 +173,9 @@ nav img {
     top: 0;
     z-index: 90;
     display: none;
-    background-color: #edbfff;
+    /* background-color: #bfc2ff; */
+    background-color: #b2baf6
+    ;
     opacity: 0;
     transition: bg-c 0.5s ease;
 }
@@ -211,6 +239,7 @@ nav img {
     transform-origin: left;
     margin-left: 24vw;
     color: #fff;
+    z-index: 500;
 }
 
 .icon-scroll,
@@ -331,7 +360,7 @@ nav img {
 .page_3 {
     width: 100%;
     min-height: 100vh;
-    /* background-color: #bfffca; */
+    /* background-color: #050a30; */
     position: relative;
     z-index: 9;
     padding-top: 100px;
@@ -461,7 +490,8 @@ nav img {
 
 .elem:hover h1{
     transform: translateY(-100%);
-    color: #EDBFFF;
+    /* color: #EDBFFF; */
+    color: #b2baf6;
 }
 
 
@@ -546,12 +576,12 @@ nav img {
 }
 
 .row > h4 {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-weight: 500;
 }
 
 .row > p {
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 500;
 }
 
@@ -563,7 +593,9 @@ nav img {
 footer{
     width: 100%;
     min-height: 150vh;
-    background-color: #e9badc;
+    /* background-color: #e9badc; */
+    background-color: #fcfcecef
+    ;
     padding: 7vw 6vw;
 }
 
@@ -609,18 +641,18 @@ footer{
 } */
 
 .eventtitle {
-    color: white; 
-    text-decoration: none; /* Removes the underline */
+    color: white;
+    text-decoration: none;
     font-size: 7vw;
     font-weight: 400;
-    
     /* color: #fff; */
     margin-left: 55px;
+    color: black;
   }
   
   .eventtitle:hover {
-    color: #EDBFFF; /*  Add a different color when hovering */
-    text-decoration: underline; /*  Add underline on hover */
+    color: #b2baf6; /*  Add a different color when hovering */
+    
   }
 
 .bottom > .bottom_description{

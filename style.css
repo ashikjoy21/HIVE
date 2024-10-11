@@ -87,9 +87,9 @@ main {
     opacity: 0.5;
 }
 #shape1 {
-    top: 50px;
+     top: 16vw;
     right: 50px;
-    width: 100px;
+    width: 200px;
     height: 100px;
 }
 #shape2 {

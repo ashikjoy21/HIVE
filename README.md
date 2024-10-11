@@ -1,5 +1,5 @@
-# Duo-Studio-Clone
- Developed a 🕸 responsive web application Clone inspired by Duo-Studio, showcasing a deep passion for web design and development.
+# HIVE-Hackathon coomunity
+ Developed a 🕸 responsive web application for HIVE
 
 🛠️ Tech Stack:
 

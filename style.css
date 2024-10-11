@@ -609,7 +609,7 @@ footer{
 } */
 
 .eventtitle {
-    color: white; /* Change 'yourColor' to the color you want, e.g., #ff5733 for orange */
+    color: white; 
     text-decoration: none; /* Removes the underline */
     font-size: 7vw;
     font-weight: 400;
@@ -619,8 +619,8 @@ footer{
   }
   
   .eventtitle:hover {
-    color: #yourHoverColor; /* Optional: Add a different color when hovering */
-    text-decoration: underline; /* Optional: Add underline on hover */
+    color: #EDBFFF; /*  Add a different color when hovering */
+    text-decoration: underline; /*  Add underline on hover */
   }
 
 .bottom > .bottom_description{

@@ -654,12 +654,11 @@ footer{
 } */
 
 .eventtitle {
-    color: white; 
-    text-decoration: none; /* Removes the underline */
+       color: white;
+    text-decoration: none;
     font-size: 7vw;
     font-weight: 400;
-    
-    /* color: #fff; */
+    color: black;
     margin-left: 55px;
   }
   

@@ -423,7 +423,20 @@ nav img {
     /* color: #111; */
     color: #fff;
 }
-
+.eventtitle {
+    color: black; 
+    text-decoration: none; /* Removes the underline */
+    font-size: 7vw;
+    font-weight: 400;
+    
+    /* color: #fff; */
+    margin-left: 55px;
+  }
+  
+  .eventtitle:hover {
+    color: #EDBFFF; /*  Add a different color when hovering */
+    text-decoration: underline; /*  Add underline on hover */
+  }
 /*+++++++++++++++++++++++++++++++++++++++++*/
 .page_4{
     min-height: 100vh;
@@ -641,18 +654,18 @@ footer{
 } */
 
 .eventtitle {
-    color: white;
-    text-decoration: none;
+    color: white; 
+    text-decoration: none; /* Removes the underline */
     font-size: 7vw;
     font-weight: 400;
+    
     /* color: #fff; */
     margin-left: 55px;
-    color: black;
   }
   
   .eventtitle:hover {
-    color: #b2baf6; /*  Add a different color when hovering */
-    
+    color: #EDBFFF; /*  Add a different color when hovering */
+    text-decoration: underline; /*  Add underline on hover */
   }
 
 .bottom > .bottom_description{

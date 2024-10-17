@@ -1,4 +1,4 @@
-# HIVE-Hackathon coomunity
+# HIVE-Hackathon community
  Developed a 🕸 responsive web application for HIVE
 
 🛠️ Tech Stack:

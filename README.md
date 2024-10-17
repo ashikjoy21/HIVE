@@ -17,5 +17,3 @@
 -- Demonstrated an unwavering commitment to detail and creativity while implementing the project.
 
 -- Leveraged advanced animation techniques and smooth-scrolling functionality to enhance user engagement.
-
--- Successfully replicated the aesthetics and functionality of Duo-Studio, highlighting a strong dedication to delivering high-quality results.

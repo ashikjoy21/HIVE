@@ -87,13 +87,13 @@ main {
     opacity: 0.5;
 }
 #shape1 {
-    top: 50px;
+     top: 16vw;
     right: 50px;
-    width: 100px;
+    width: 200px;
     height: 100px;
 }
 #shape2 {
-    bottom: 200px;
+    bottom: 29vw;
     left: 50px;
     width: 150px;
     height: 150px;
@@ -609,7 +609,7 @@ footer{
     /* background-color: #e9badc; */
     background-color: #fcfcecef
     ;
-    padding: 7vw 6vw;
+    padding: 9vw 6vw;
 }
 
 .top{
@@ -643,7 +643,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 12vw;
+    padding-top: 21vw;
 }
 /* .page_3 .eventtitle h1 {
     font-size: 7vw;
@@ -654,12 +654,11 @@ footer{
 } */
 
 .eventtitle {
-    color: white; 
-    text-decoration: none; /* Removes the underline */
+       color: white;
+    text-decoration: none;
     font-size: 7vw;
     font-weight: 400;
-    
-    /* color: #fff; */
+    color: black;
     margin-left: 55px;
   }
   

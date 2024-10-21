@@ -538,6 +538,9 @@ nav img {
     top: -150%;
 }
 
+#mob-elem{
+    display: none;
+}
 /*+++++++++++++++++++++++++++++++++++++++++*/
 .page_5{
     width: 100%;
@@ -605,7 +608,7 @@ nav img {
 /*+++++++++++++++++++++++++++++++++++++++++*/
 footer{
     width: 100%;
-    min-height: 150vh;
+    min-height: 90vh;
     /* background-color: #e9badc; */
     background-color: #fcfcecef
     ;
@@ -715,4 +718,180 @@ footer{
     background-color: #111 !important;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #mob-elem {
+        background-color: #EFEAE3;
+        display: flex;
+        flex-direction: column;
+        padding: 4vw;
+        gap: 1vh;
+    }
+
+    .page_3{
+        display: none;
+    }
+    .hero_part1{
+        display: flex;
+    }
+    .section_1 h1 {
+        font-size: 17vw;
+        font-weight: 500;
+        margin-left: 4vw;
+        position: relative;
+        /* transform-origin: 0% -50%; */
+        color: #fff;
+        text-align: center;
+    }
+    
+    .section_1 h2 {
+        font-size: 17vw;
+        font-weight: 400;
+        position: relative;
+        /* transform-origin: left; */
+        margin-left: 2vw;
+        color: #fff;
+        z-index: 500;
+        text-align: center;
+    }
+    .section_1 .hero_part1 h1:nth-child(1) {
+        margin-top: 20vh;
+    }
+    .page_2 h1 {
+        font-size: 14vw;
+        font-weight: 500;
+        padding: 100px 0;
+        color: #111;
+        text-align: center;
+    }
+    .page_2_left h2 {
+    font-size: 10vw;
+    color: #111;
+    font-weight: 400;
+    line-height: 10vw;
+    text-align: center;
+    position: relative;
+    }
+    .page_description {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page_2_left {
+        /* background-color: blue; */
+        width: 80%;
+    }
+    .page_2_right {
+        /* background-color: blue; */
+        /* width: 40%; */
+        width: 70%;
+    }
+    .page_2_right p {
+        font-size: 4vw;
+        color: #111;
+        text-align: center;
+    }
+    .page_2_right p {
+        font-size: 4vw;
+        color: #111;
+        text-align: center;
+    }
+    .page_4> p {
+        text-align: center;
+        font-size: 13.9vw;
+        position: relative;
+        /* bottom: 41px; */
+        color: black;
+        padding-top: 14vw;
+        padding-bottom: 17vh;
+    }
+    .page_4 .elem img{
+        display: none;
+    }
+    .text h1{
+        font-size: 8vw;
+        font-weight: 400;
+        text-align: center;
+        /* mix-blend-mode: difference; */
+        cursor: pointer;
+        
+    }
+    #mob-elem {
+        background-color:#050a30;
+        display: flex;
+        flex-direction: column;
+        padding: 4vw;
+        gap: 1vh;
+    }
+    #mob-elem img {
+        width: 100%;
+        height: 50vh;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    #mob-elem h2 {
+    
+        font-weight: 700;
+        font-size: 9vw;
+        color: white;
+    }
+    .page_5_inside{
+        display: none;
+    }
+    .row-mob{
+        color: white;
+        text-align: center;
+        padding: 3vh;
+        padding-bottom: 6vh;
+    }
+    
+.top {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 5vw;
+    flex-direction: column;
+    gap: 10vh;
+}
+footer {
+    width: 100%;
+    min-height: 120vh;
+    /* background-color: #e9badc; */
+    background-color: #fcfcecef;
+    padding: 34vw 6vw;
+}
+.top > .footer_description {
+    font-size: 5.5vw;
+    /* text-align: center; */
+}
+.bottom > .bottom_description h4 {
+    font-size: 9.7vw;
+    font-weight: 600;
+    padding-bottom: 5vh;
+}
+.bottom {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12vw;
+    flex-direction: column;
+    font-size: 3vh;
+}
+.bottom > .bottom_description {
+    width: 80vw;
+    text-align: center;
+}
+.bottom > h1 {
+    font-size: 4.7vw;
+    font-weight: 400;
+}
 }
